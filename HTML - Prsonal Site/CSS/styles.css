@@ -1,0 +1,37 @@
+body {
+  background-color: #CDF0EA;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 7px;
+  width: 10%;
+}
+
+h1 {
+  color: #0f6666;
+}
+
+h3 {
+  color: #0f6666;
+}
+
+td {
+  color: #023030;
+}
+
+p {
+  color: #0f0600;
+}
+
+img:hover {
+  background-color: red;
+}
+h3:hover{
+  color: blue;
+}
+em:hover{
+  color: gold;
+}
