@@ -1,5 +1,6 @@
 body {
-  background-color: #CDF0EA;
+  background-color: #FFFFDD;
+
 }
 
 hr {
@@ -11,7 +12,9 @@ hr {
 }
 
 h1 {
+  font-size: 52px;
   color: #0f6666;
+  font-family: serif;
 }
 
 h3 {
@@ -25,13 +28,37 @@ td {
 p {
   color: #0f0600;
 }
-
-img:hover {
-  background-color: red;
+a{
+  font-size: 22px;
+  color: #0f6666;
 }
+
+/*img:hover {
+  background-color: none;
+}*/
 h3:hover{
   color: blue;
 }
 em:hover{
-  color: gold;
+  color: #ed0202;
+}
+.indexBody {
+  background-color: #CDF0EA;
+  /*background-image: url(bg.jpeg);*/
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.arial {
+  font-family: monospace;
+  font-size: 22px;
+  /*color:#063e4f;*/
+}
+.fwd{
+  font-size: 32px;
+}
+.profilePhoto{
+  opacity: 1;
+}
+.profilePhoto:hover{
+  opacity: 0.7;
 }
