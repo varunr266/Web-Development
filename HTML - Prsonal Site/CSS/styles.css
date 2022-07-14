@@ -31,6 +31,10 @@ p {
 a{
   font-size: 22px;
   color: #0f6666;
+  text-decoration: none;
+}
+td{
+  font-size: 18px;
 }
 
 /*img:hover {
@@ -56,9 +60,15 @@ em:hover{
 .fwd{
   font-size: 32px;
 }
+.fwd:hover{
+  opacity:0;
+}
 .profilePhoto{
   opacity: 1;
 }
 .profilePhoto:hover{
   opacity: 0.7;
+}
+.table{
+  border-collapse: collapse;
 }
